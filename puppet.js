@@ -155,7 +155,7 @@ const crawler = async() => {
             // let home_name = page.$eval(
                 "#site-content > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div > div > div > div > section > div._b8stb0 > span > h1", element => {
                     return element.textContent;
-                }); // 원하는 html 태그를 copy selector 로 가져온 후, textContent만 추출한다.
+                }); // 원하는 html 태그를 copy selector 로 가져온 후, textContent만 추출한다.w
             console.log(home_name);
 
             // 숙소 호스팅 유저 이름
