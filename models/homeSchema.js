@@ -46,8 +46,9 @@ const homeSchema = mongoose.Schema({
   availableDate: {
     type: String,
     default:"",
-  }
-});
+  },
+}, 
+{ timestamps: true });
 
 homeSchema.virtual("HomesId").get(function () {
   return this._id.toHexString();
