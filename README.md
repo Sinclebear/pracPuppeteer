@@ -3,7 +3,7 @@ puppeteer 사용 연습
 
 ## 실행
 
-```javascript
+```
 node puppet.js
 ```
 
